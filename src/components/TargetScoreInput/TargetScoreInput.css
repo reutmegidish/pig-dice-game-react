@@ -1,0 +1,51 @@
+.target-score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+/* the same in  InstructionContainer - how to handle this?*/
+.game-settings-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  /* margin-bottom: 1rem; */
+}
+
+#game-settings-btn {
+  width: 15rem;
+  height: 3rem;
+  font-size: 1.4rem;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 1px 4px 30px rgba(0, 0, 0, 0.1);
+  /* change btn color */
+  background-color: #ca2e55;
+  cursor: pointer;
+  border: none;
+}
+/* change var + check the disabled */
+#game-settings-btn:hover {
+  background: white;
+  color: var(--red-color);
+}
+
+/* #game-settings-btn:disabled {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+  opacity: 0.5;
+} */
+
+input {
+  width: 15rem;
+  height: 3rem;
+  border-radius: 15px;
+  text-align: center;
+  /* outline: none; */
+}

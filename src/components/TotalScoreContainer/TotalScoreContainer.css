@@ -1,0 +1,14 @@
+.player-upper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  padding: 5rem;
+}
+
+.player-title,
+.toatl-score {
+  font-size: 4rem;
+  font-weight: 400;
+}

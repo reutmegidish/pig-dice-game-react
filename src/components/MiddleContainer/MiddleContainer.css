@@ -1,0 +1,29 @@
+.middle-container {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  background: transparent;
+  padding: 10rem 0;
+}
+
+.middle-container-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 10rem;
+  z-index: 5;
+}
+.dice-container img {
+  width: 5rem;
+  height: 5rem;
+}
+
+#target-points {
+  font-size: 2.5rem;
+}

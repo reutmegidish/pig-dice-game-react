@@ -1,0 +1,23 @@
+.instruction {
+  width: 100%;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.instruction:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.instruction:hover img {
+  transform: scale(1.4);
+  transition: 1s;
+}
+
+.instruction-img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
